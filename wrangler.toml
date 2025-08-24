@@ -1,6 +1,6 @@
-name = "worker-mertbekci"
+name = "portfolio-construction"
 main = "src/index.ts"
-compatibility_date = "2023-02-26"
+compatibility_date = "2025-08-15"
 workers_dev = true
 
 [vars]
@@ -9,8 +9,8 @@ BASE_URL = "http://127.0.0.1:8787"
 # Override values for `--env production` usage
 [env.production]
 routes = [
-	{ pattern = "bento.mertbekci.com", custom_domain = true }
+	{ pattern = "farhanfadillah.com", custom_domain = true }
 ]
 
 [env.production.vars]
-BASE_URL = "https://bento.mertbekci.com"
+BASE_URL = "https://farhanfadillah.com"

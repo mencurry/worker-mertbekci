@@ -35,7 +35,7 @@ export default {
 
     let url = someHost + requestUrl.pathname;
     if (url === "https://bento.me/") {
-      url = "https://bento.me/mertbekci";
+      url = "https://bento.me/farhanfadillah";
     }
 
     const init = {
